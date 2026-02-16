@@ -19,7 +19,7 @@ def index():
     <!DOCTYPE html>
     <html>
     <head>
-        <title>Mandelbrot Explorer</title>
+        <title>Fractal Explorer</title>
         <style>
             body { background: #1a1a1a; color: white; text-align: center; font-family: sans-serif; }
             canvas { border: 1px solid #555; cursor: crosshair; box-shadow: 0 0 20px rgba(0,0,0,0.5); }
