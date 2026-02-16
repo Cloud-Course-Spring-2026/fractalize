@@ -9,7 +9,7 @@ app = FastAPI()
 
 # Config
 WIDTH = 800
-HEIGHT = 600
+HEIGHT = 1000
 MAX_ITER = 64
 
 @app.get("/")
