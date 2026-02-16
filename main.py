@@ -9,7 +9,7 @@ app = FastAPI()
 
 # Config
 WIDTH = 800
-HEIGHT = 1200
+HEIGHT = 600
 MAX_ITER = 64
 
 @app.get("/")
@@ -28,7 +28,7 @@ def index():
     <body>
         <h2>Mandelbrot Fun</h2>
         <p>Click to Zoom In | Right Click to Zoom Out | R to Reset</p>
-        <img id="view" src="/render?xmin=-2.5&xmax=1.5&ymin=-1.5&ymax=1.5" width="800" height="1200" />
+        <img id="view" src="/render?xmin=-2.5&xmax=1.5&ymin=-1.5&ymax=1.5" width="800" height="600" />
         
         <script>
             const initialState = { xmin: -2.5, xmax: 1.5, ymin: -1.5, ymax: 1.5 };
