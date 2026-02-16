@@ -1,4 +1,4 @@
-name: Deploy to Jetstream
+name: Deploy to Jetstream?
 
 on:
   push:
